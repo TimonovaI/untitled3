@@ -1,9 +1,10 @@
 #include <iostream>
 
 int main() {
-    int a = 7;
-    std::cout << a/3<<'\n';
-    std::cout << a*3<<'\n';
-    std::cout << a+3<<'\n';
+    char a = 56;
+    std::cout<< char(a*2)<<'\n';
+    std::cout<< char(a/3)<<'\n';
+    std::cout<< char(a+12)<<'\n';
+
     return 0;
 }
